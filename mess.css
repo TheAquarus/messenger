@@ -1,0 +1,25 @@
+:root[data-color-scheme="dark"] {
+ --FAM-accentClr: #7583ff;
+ --FAM-secondClr: #333c92;
+ --FAM-fontClr: #c7c5cd;
+ --FAM-fontLightClr: #9a96a3;
+ --FAM-linkClr: #7583ff;
+ --FAM-titleClr: #f0f0f8;
+ --FAM-buttonsClr: #E5E5E5;
+
+ --FAM-pluginBackground: #1e212a;
+ --FAM-chatBackground: #181a21;
+ --FAM-textareaBackground: #1e212a;
+ --FAM-msgBackground: #0B0E17;
+ --FAM-myMsgBackground: #1e212a;
+ --FAM-quoteBackground: rgba(255,255,255,0.04);
+
+ --FAM-shadowBox: 0 0 20px var(--neutralDark);
+  
+/* Pas besoin de les modifier, elles sont relatives aux variables au-dessus */
+ --FAM-gradient: linear-gradient(-90deg, var(--FAM-pluginBackground) 20%, color-mix(in srgb, var(--FAM-pluginBackground), transparent 100%) 100%);
+ --FAM-gradientTop: linear-gradient(180deg, var(--FAM-chatBackground) 20%, color-mix(in srgb, var(--FAM-chatBackground), transparent 100%) 100%);
+ --FAM-gradientBot: linear-gradient( 0deg, var(--FAM-chatBackground) 20%, color-mix(in srgb, var(--FAM-chatBackground), transparent 100%) 100%);
+ --FAM-sleepModeBackground: color-mix(in srgb, var(--FAM-chatBackground), transparent 30%);
+ --FAM-newMsgAnimation: color-mix(in srgb, var(--FAM-accentClr), transparent 20%);
+}
